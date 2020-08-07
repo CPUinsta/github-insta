@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    font-family: "Font";
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, span, div, p, a {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Font; /* Имя шрифта */
+	src: url(../fonts/Font.ttf); /* Путь к файлу со шрифтом */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+button {
+    width: 100%;
+    padding: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1dd1a1;
+    margin-top: 15%;
+    color: #fff;
+    font-size: 150%;
+}
